@@ -31,7 +31,7 @@ func main() {
 	sent, err := client.Emails.Send(ctx, &camelmailer.SendEmailRequest{
 		From:     camelmailer.Address{Email: envOr("CAMELMAILER_FROM", "you@yourdomain.com")},
 		To:       []camelmailer.Address{{Email: envOr("CAMELMAILER_TO", "delivered@example.com")}},
-		Subject:  "Hello from CamelMailer",
+		Subject:  "Hello from Camelmailer",
 		HTMLBody: "<strong>It works!</strong>",
 	})
 	if err != nil {

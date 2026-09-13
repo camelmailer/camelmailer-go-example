@@ -1,11 +1,11 @@
-# CamelMailer with Go
+# Camelmailer with Go
 
-This example shows how to use [CamelMailer](https://camelmailer.com) with [Go](https://go.dev) through the [camelmailer-go](https://github.com/camelmailer/camelmailer-go) SDK: send an email, then read the server's message stats.
+This example shows how to use [Camelmailer](https://camelmailer.com) with [Go](https://go.dev) through the [camelmailer-go](https://github.com/camelmailer/camelmailer-go) SDK: send an email, then read the server's message stats.
 
 ## Prerequisites
 
 - Go 1.21+
-- A CamelMailer server API key (dashboard → your server → **Credentials** → new credential of type **API**)
+- A Camelmailer server API key (dashboard → your server → **Credentials** → new credential of type **API**)
 
 ## Instructions
 
